@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-workflow-lora-presets"
+description = "LoRA presets saved INSIDE the workflow. One dropdown applies a whole LoRA combo; right-click to save your enabled LoRA loaders as a preset, edit, import or share. Anyone who loads your workflow gets your presets."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/rasmont/comfyui-workflow-lora-presets"
+
+[tool.comfy]
+PublisherId = "rasmont"
+DisplayName = "LoRA Preset (saved in workflow)"
+Icon = "https://raw.githubusercontent.com/rasmont/comfyui-workflow-lora-presets/main/icon.png"
+includes = ["web"]
